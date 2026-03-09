@@ -1,0 +1,34 @@
+footer{
+    background-color: black;
+    color: white;
+}
+.footer-box {
+    display: flex;
+    padding-top: 10px;
+    
+}
+.enlaces  {
+    width: 20%;
+    margin-left: 4%;
+    margin-bottom: 10px;
+}
+.cat {
+    border-bottom: 2px solid orange;
+    margin-bottom: 10px;
+}
+.red-social {
+    color: white;
+    display: inline;
+    margin: 5px;
+    border-radius: 50%;
+    width: fit-content;
+    height: fit-content;
+    background-color: black;
+}
+.enlace {
+    font-size: 17px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+}

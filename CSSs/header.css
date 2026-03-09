@@ -1,0 +1,49 @@
+.cabecera {
+    padding: 10px 0;
+}
+
+.imagen-logo {
+    height: 40px;
+}
+.contenedor-cabecera {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2b2b2b;
+    padding: 15px 30px;
+}
+
+.logo {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.resaltado {
+    color: orange;
+}
+
+.menu-navegacion {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.menu-navegacion a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.menu-navegacion a:hover {
+    color: orange;
+}

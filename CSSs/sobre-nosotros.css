@@ -1,0 +1,106 @@
+/* SECCION GENERAL */
+.seccion-sobre {
+    width: 95%;
+    margin: 30px auto;
+}
+
+/* TITULO */
+.contenedor-titulo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.linea-superior,
+.linea-inferior {
+    height: 1px;
+    margin: 15px 0;
+}
+
+.contenedor-titulo h1 {
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #333;
+}
+
+/* CONTENIDO PRINCIPAL */
+.contenedor-principal {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+}
+
+/* COLUMNA IMAGEN */
+.columna-imagen {
+    width: 50%;
+}
+
+.imagen-empresa {
+    width: 100%;
+    min-width: 70%;
+    height: 500px;
+    background-image: url("../img/Tienda/Tienda-1.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+/* COLUMNA TEXTO */
+.columna-texto {
+    width: 50%;
+}
+
+.subtitulo {
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.marca {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.nombre-marca {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.resaltado {
+    color: orange;
+}
+
+.texto-destacado {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.columna-texto p {
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* ICONOS */
+.iconos-sociales {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.icono-social {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.icono-social:hover {
+    transform: scale(1.1);
+    background-color: orange;
+}

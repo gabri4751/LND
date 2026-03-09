@@ -1,0 +1,137 @@
+/* TITULO */
+.seccion-titulo {
+    width: 95%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.seccion-titulo hr {
+    border: none;
+    height: 1px;
+    background-color: #999;
+    margin: 15px 0;
+}
+
+.seccion-titulo h1 {
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #333;
+}
+
+/* PRODUCTOS */
+.seccion-productos {
+    width: 95%;
+    margin: 40px auto;
+}
+
+.contenedor-productos {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.tarjeta-producto {
+    width: 23%;
+    text-align: center;
+}
+
+.imagen-zapato1 {
+    width: 100%;
+    height: 180px;
+    background-image: url("../img/Articulos/Articulo-1.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 15px;
+}
+
+.imagen-zapato2 {
+    width: 100%;
+    height: 180px;
+    background-image: url("../img/Articulos/Articulo-2.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 15px;
+}
+
+.imagen-zapato3 {
+    width: 100%;
+    height: 180px;
+    background-image: url("../img/Articulos/Articulo-3.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 15px;
+}
+
+.imagen-zapato4 {
+    width: 100%;
+    height: 180px;
+    background-image: url("../img/Articulos/Articulo-4.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 15px;
+}
+
+
+.tarjeta-producto h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.precio {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+/* BOTON */
+.boton-carrito {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #2b2b2b;
+    color: white;
+    font-size: 11px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.boton-carrito:hover {
+    background-color: orange;
+    transform: scale(1.05);
+}
+
+/* PAGINACION */
+.paginacion {
+    width: 95%;
+    margin: 30px auto 60px auto;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.pagina {
+    width: 30px;
+    height: 30px;
+    background-color: #2b2b2b;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pagina:hover {
+    background-color: orange;
+}
+
+.pagina.activa {
+    background-color: black;
+}

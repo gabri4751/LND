@@ -1,0 +1,165 @@
+/* TITULO */
+.seccion-titulo {
+    width: 95%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.seccion-titulo hr {
+    border: none;
+    height: 1px;
+    background-color: #999;
+    margin: 15px 0;
+}
+
+.seccion-titulo h1 {
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #333;
+}
+
+/* CONTACTO */
+.seccion-contacto {
+    width: 95%;
+    margin: 40px auto;
+    display: flex;
+    gap: 50px;
+}
+
+.columna-informacion {
+    width: 50%;
+}
+
+.columna-informacion h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.subtexto {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.columna-informacion p {
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.email {
+    margin-top: 20px;
+}
+
+/* iCONOS REDES SOCIALES */
+
+.contenedor-redes {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.logo-central {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo-central img {
+    width: 60px;
+    height: 60px;
+}
+
+.icono-red {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.icono-red:hover {
+    transform: scale(1.1);
+}
+
+/* posiciones alrededor del logo */
+/* Facebook */
+.icono-red:nth-child(1) { 
+    top: 70px;
+    left: 61%;
+    transform: translateX(-50%);
+}
+/* Instagram */
+.icono-red:nth-child(2) { 
+    top: 86px;
+    left: 69%;
+}
+/* X */
+.icono-red:nth-child(3) { 
+    bottom: 30%;
+    left: 80%;
+}
+/* Linkedin */
+.icono-red:nth-child(4) { 
+    bottom: 57px;
+    left: 40%;
+    transform: translateX(-50%);
+}
+/* Telegram */
+.icono-red:nth-child(6) { 
+    top: 86px;
+    left: 40%;
+}
+
+/* FORMULARIO */
+.columna-formulario {
+    width: 50%;
+}
+
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formulario-contacto input,
+.formulario-contacto select,
+.formulario-contacto textarea {
+    padding: 10px;
+    border: 1px solid #aaa;
+    background-color: #f5f5f5;
+    font-size: 12px;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+.contenedor-condiciones {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+}
+
+.contenedor-condiciones a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.boton-enviar {
+    align-self: flex-end;
+    padding: 10px 30px;
+    background-color: #2b2b2b;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.boton-enviar:hover {
+    background-color: orange;
+    transform: scale(1.05);
+}
